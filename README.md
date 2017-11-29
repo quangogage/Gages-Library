@@ -8,7 +8,7 @@ There are two options you have for installing this library:
 
 Install this repository as a node package:
 
-`npm install git+ssh://git@github.com/quangogage/Gages-Library.git`
+`npm install git+ssh://git@github.com/quangogage/Gages-Library.git --save`
 
 **2. .ZIP**
 
