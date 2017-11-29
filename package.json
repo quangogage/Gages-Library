@@ -1,0 +1,19 @@
+{
+  "name": "gages-library",
+  "version": "1.0.0",
+  "description": "A library of small, useful functions that I have been collecting and storing as I learn.",
+  "main": "gagelib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangogage/Gages-Library.git"
+  },
+  "author": "Gage Henderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangogage/Gages-Library/issues"
+  },
+  "homepage": "https://github.com/quangogage/Gages-Library#readme"
+}
