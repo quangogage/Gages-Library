@@ -1,13 +1,9 @@
 /* exported gagelib */
-import array from './Array';
-import device from './Device';
-import math from './Math';
-import string from './String';
 var GageLib = {
-  array: array,
-  device: device,
-  math: math,
-  string: string
+  array: require('./Array'),
+  device: require('./Device'),
+  math: require('./Math'),
+  string: require('./String');
 };
 
-export default GageLib;
+module.exports = GageLib;
