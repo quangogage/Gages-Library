@@ -1,3 +1,3 @@
-var Array = {};
+var string = {};
 
-export default Array;
+export default string;

@@ -1,8 +1,8 @@
-var Math = {};
+var math = {};
 
 // Get a random number between two.
-Math.getRandom = function(min, max) {
+math.getRandom = function(min, max) {
   return Math.random() * (max - min + 1) + min;
 };
 
-export default Math;
+export default math;

@@ -1,8 +1,8 @@
-var String = {};
+var string = {};
 
 // Place a string into another string at a
 // specific index.
-String.insertAt = function(position, str, add) {
+string.insertAt = function(position, str, add) {
   var error;
   if (!position) {
     error = 'position';
@@ -19,4 +19,4 @@ String.insertAt = function(position, str, add) {
   }
 };
 
-export default String;
+export default string;

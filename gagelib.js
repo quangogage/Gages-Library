@@ -1,13 +1,13 @@
 /* exported gagelib */
-import Array from './Array';
-import Device from './Device';
-import Math from './Math';
-import String from './String';
+import array from './Array';
+import device from './Device';
+import math from './Math';
+import string from './String';
 var GageLib = {
-  array: Array,
-  device: Device,
-  math: Math,
-  string: String
+  array: array,
+  device: device,
+  math: math,
+  string: string
 };
 
 export default GageLib;
