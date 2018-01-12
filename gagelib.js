@@ -4,7 +4,7 @@ var GageLib = {
   device: require('./Device'),
   math: require('./Math'),
   string: require('./String'),
-  listeners: require('./Listeners/Listeners')
+  listeners: require('./Listeners')
 };
 
 module.exports = GageLib;
