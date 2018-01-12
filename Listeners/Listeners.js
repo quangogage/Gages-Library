@@ -1,4 +1,4 @@
-import Scroll from './Scroll';
+var Scroll = require('./Scroll');
 
 class Listeners {
   constructor() {
@@ -14,4 +14,4 @@ class Listeners {
   }
 }
 
-export default Listeners;
+module.exports = Listeners;

@@ -1,4 +1,4 @@
-import ListenerClass from './ListenerClass';
+var ListenerClass = require('./ListenerClass');
 
 class Scroll extends ListenerClass {
   load() {
@@ -11,4 +11,4 @@ class Scroll extends ListenerClass {
   }
 }
 
-export default Scroll;
+module.exports = Scroll;

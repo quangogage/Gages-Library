@@ -8,4 +8,4 @@ class ListenerClass {
     }
   }
 }
-export default ListenerClass;
+module.exports = ListenerClass;
