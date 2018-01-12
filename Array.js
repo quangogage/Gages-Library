@@ -1,3 +1,5 @@
-var array = {};
+class array() {
+  
+}
 
 module.exports = array;
