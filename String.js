@@ -19,4 +19,4 @@ string.insertAt = function(position, str, add) {
   }
 };
 
-export default string;
+module.exports = string;

@@ -1,3 +1,3 @@
 var string = {};
 
-export default string;
+module.exports = string;

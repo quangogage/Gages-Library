@@ -7,4 +7,4 @@ device.get = function() {
   );
 };
 
-export default device;
+module.exports = device;
