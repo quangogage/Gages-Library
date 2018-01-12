@@ -1,5 +1,3 @@
-class array() {
-  
-}
+class array {}
 
 module.exports = array;
