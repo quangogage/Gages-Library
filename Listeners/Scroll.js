@@ -1,6 +1,6 @@
-var ListenerClass = require('./ListenerClass');
+var listenerclass = require('./ListenerClass');
 
-class Scroll extends ListenerClass {
+class scroll extends listenerclass {
   load() {
     window.addEventListener(
       'scroll',
@@ -11,4 +11,4 @@ class Scroll extends ListenerClass {
   }
 }
 
-module.exports = Scroll;
+module.exports = scroll;
