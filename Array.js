@@ -1,3 +1,3 @@
-var string = {};
+var array = {};
 
-module.exports = string;
+module.exports = arrat;
