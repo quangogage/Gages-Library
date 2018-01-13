@@ -1,4 +1,4 @@
-class listenerclass {
+class ListenerClass {
   constructor() {
     this.funcs = [];
   }
@@ -8,4 +8,4 @@ class listenerclass {
     }
   }
 }
-module.exports = listenerclass;
+module.exports = ListenerClass;

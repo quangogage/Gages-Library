@@ -1,8 +1,8 @@
-var scroll = require('./Scroll');
+var Scroll = require('./Scroll');
 
-class listeners {
+class Listeners {
   constructor() {
-    this.scroll = new scroll();
+    this.scroll = new Scroll();
   }
 
   load() {
@@ -14,4 +14,4 @@ class listeners {
   }
 }
 
-module.exports = listeners;
+module.exports = Listeners;
