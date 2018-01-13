@@ -15,8 +15,11 @@ Install this repository as a node package:
 Download this directory as a ZIP file and place it in your project.
 
 ## Use
-`import GageLib from "Gages-Library";`
-
+`import GageLib from "Gages-Library";`\
+<br/>
+<br/>
+<br/>
+<br/>
 # Documentation
 This library is broken up into seperate modules accessed via their name - ie `GageLib.math, GageLib.array, etc`.
 
