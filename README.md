@@ -17,7 +17,7 @@ Download this directory as a ZIP file and place it in your project.
 ## Use
 `import GageLib from "Gages-Library";`
 
-## Documentation
+# Documentation
 This library is broken up into seperate modules accessed via their name - ie `GageLib.math, GageLib.array, etc`.
 
 Modules with uppercase name's are classes.
