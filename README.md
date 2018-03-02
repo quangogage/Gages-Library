@@ -15,14 +15,40 @@ Install this repository as a node package:
 Download this directory as a ZIP file and place it in your project.
 
 ## Use
-`import GageLib from "Gages-Library";`
+`import GageLib from "Gages-Library";`\
+<br/>
+<br/>
+# Documentation
+This library is broken up into seperate modules accessed via their name - ie `GageLib.math, GageLib.array, etc`.
 
-## Documentation
-*I am hoping to create a list of this library's complete funcionality in the future, but for now..*
+Modules with uppercase name's are classes.
 
-This library is broken up into seperate modules - each containing useful functionality relative to it's name, referenced via `GageLib.nameofmodule`. Right now there are only 4 modules.
+### array:
+  * _Nothing yet_
+### math: 
+  * `getRandom(float,float)`
+    * Returns a random number between two floats
+### string:
+  * `insertAt(position,string,add)`
+    * Places a string into another string at a specific index
+### device:
+  * `get()`
+    * Returns the users device
+### Listeners:
+  _The `Listeners` class' purpose is to make working with event listeners cleaner and easier (but mostly cleaner:)._
+  
+  
+1. Initialize the class - `var myListeners=new GageLib.listeners()`
+2. Load the listeners - `myListeners.load()`
+3. Add functions to the respective listeners:
+```
+function onScroll() {
+  var scrollY=arguments[0];
+  console.log(scrollY);
+}
 
-* *Array* - `GageLib.array`
-* *Device* - `GageLib.device`
-* *Math* - `GageLib.math`
-* *String* - `GageLib.string`
+// Add to myListener
+myListener.add(onScroll,'scroll');
+```
+
+
