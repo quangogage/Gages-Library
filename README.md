@@ -28,6 +28,11 @@ Modules with uppercase name's are classes.
 ### math: 
   * `getRandom(float,float)`
     * Returns a random number between two floats
+  * `toRadians(degrees)`
+    * Converts degrees into radians
+  * ` toDegrees(radian)`
+    * Converts radians into degrees
+  
 ### string:
   * `insertAt(position,string,add)`
     * Places a string into another string at a specific index
