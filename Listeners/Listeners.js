@@ -1,4 +1,5 @@
 var Scroll = require('./Scroll');
+var KeyDown = require('./KeyDown');
 
 class Listeners {
   constructor() {
@@ -7,6 +8,7 @@ class Listeners {
 
   load() {
     this.scroll.load();
+    this.keydown.load();
   }
 
   add(func, listener) {
