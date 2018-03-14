@@ -32,6 +32,8 @@ Modules with uppercase name's are classes.
     * Converts degrees into radians
   * ` toDegrees(radian)`
     * Converts radians into degrees
+  * `getDistance(x1,y1,x2,y2)`
+    * Get the distance between two points
   
 ### string:
   * `insertAt(position,string,add)`
