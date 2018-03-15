@@ -4,6 +4,7 @@ var KeyDown = require('./KeyDown');
 class Listeners {
   constructor() {
     this.scroll = new Scroll();
+    this.keydown = new KeyDown();
   }
 
   load() {
