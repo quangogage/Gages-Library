@@ -5,6 +5,7 @@ class KeyDown extends ListenerClass {
     window.addEventListener(
       'keydown',
       function(e) {
+        console.log('you pressed ' + e.keyCode);
         this.executeFuncs(e.keyCode);
       }.bind(this)
     );
