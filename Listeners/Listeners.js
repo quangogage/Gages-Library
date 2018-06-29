@@ -14,7 +14,6 @@ class Listeners {
   }
 
   add(func, listener) {
-    console.log('added function to ', listener);
     this[listener].funcs.push(func);
   }
 }
