@@ -5,6 +5,7 @@ class Listeners {
   constructor() {
     this.scroll = new Scroll();
     this.keydown = new KeyDown();
+    this.load();
   }
 
   load() {
