@@ -47,7 +47,7 @@ math.getWeightedFrom = function(list) {
   // until below zero, then return the current
   // item.
   for (var i = 0; i < list.length; i++) {
-    var item = item[i];
+    var item = list[i];
 
     randomWeight -= item.weight;
     if (randomWeight <= 0) {
