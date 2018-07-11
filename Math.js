@@ -36,7 +36,7 @@ math.getWeightedFrom = function(list) {
   }
 
   // Randomly pick a weight between 0 and the max
-  var randomSpawnWeight = math.getRandom(1, this.totalSpawnWeight);
+  var randomWeight = math.getRandom(1, this.totalSpawnWeight);
 
   // Make sure it is not larger than the maximum weight
   if (randomWeight > totalWeight) {
