@@ -2,8 +2,9 @@
   "name": "gages-library",
   "version": "1.0.0",
   "description": "A library of small, useful functions that I have been collecting and storing as I learn.",
-  "main": "gagelib.js",
+  "main": "dist/main.js",
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/quangogage/Gages-Library/issues"
   },
-  "homepage": "https://github.com/quangogage/Gages-Library#readme"
+  "homepage": "https://github.com/quangogage/Gages-Library#readme",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }
