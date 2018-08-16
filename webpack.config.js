@@ -1,22 +1,24 @@
-const path = require('path');
-
+var path = require('path');
+var webpack = require('webpack');
 module.exports = {
   entry: './gagelib.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js'
+  },
   module: {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
-          presets: ['es2015', 'stage-0']
+          presets: ['es2015']
         }
       }
     ]
   },
-  mode: 'production',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
-  }
+  stats: {
+    colors: true
+  },
+  devtool: 'source-map'
 };
